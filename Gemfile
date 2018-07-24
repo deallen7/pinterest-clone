@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'haml', '~> 5.0', '>= 5.0.4'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'simple_form', '~> 4.0', '>= 4.0.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
