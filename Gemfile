@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'masonry-rails', '~> 0.2.4'
 gem 'paperclip', '~> 6.0'
 gem 'jquery-rails'
 gem 'devise', '~> 4.4', '>= 4.4.3'
